@@ -8,39 +8,45 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Text"
+        android:text="@string/text"
         android:inputType="text"
-        />
+        android:autofillHints="someText"
+        android:textSize="25sp"
+        android:textColor="@color/purple_700"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Name"
+        android:text="@string/name"
         android:inputType="textPersonName"
-        />
+        android:autofillHints="username"
+        android:textSize="70sp"
+        android:textColor="@color/purple_500"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Phone"
-        android:inputType="phone"/>
+        android:text="@string/phone"
+        android:inputType="phone"
+        android:autofillHints="PhoneNumber"
+        android:textColor="@color/teal_200"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Number"
+        android:text="@string/number"
         android:inputType="number"
-        />
+        android:autofillHints="number" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Password"
+        android:text="@string/password"
         android:inputType="textPassword"
-        />
+        android:autofillHints="password" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Email"
+        android:text="@string/email"
         android:inputType="textEmailAddress"
-        />
+        android:autofillHints="emailAddress" />
     <CalendarView
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

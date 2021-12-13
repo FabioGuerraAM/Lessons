@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Lessons</string>
+    <string name="Hello">Hi, this my first application</string>
+    <string name="click_me">Click me</string>
+    <string name="type">Type</string>
+    <string name="text">Text</string>
+    <string name="name">Name</string>
+    <string name="number">Number</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="password">Password</string>
 </resources>

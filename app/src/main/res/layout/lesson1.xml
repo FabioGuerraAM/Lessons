@@ -8,17 +8,21 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hi, this my first application"
+        android:text="@string/Hello"
  />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Type please"
-        />
+        android:text="@string/type"
+        android:textSize="30sp"
+        android:textColor="@color/teal_700"
+        android:autofillHints="inputType"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Click me"
+        android:text="@string/click_me"
+        android:textSize="20sp"
+        android:textColor="@color/black"
         />
     <Switch
         android:layout_width="wrap_content"
@@ -28,6 +32,7 @@
         android:layout_height="wrap_content"/>
     <ToggleButton
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"/>
 
 </LinearLayout>
